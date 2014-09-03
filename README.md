@@ -9,7 +9,7 @@ as I go. Name is a shameless rip-off of "ThoughtWorks Tech Radar"
 TypeScript
 ----------
 
-I have developer a strong preference for selecting TypeScript over
+I have developed a strong preference for selecting TypeScript over
 CoffeeScript, plain Javascript or ES6 transpilers. This is the easiest
 choice in this list.
 
@@ -48,6 +48,11 @@ Comments on some competing frameworks in particular:
   automation) to make the offering competitive with Angular.
 
 - Ember.js: direct competitor to Angular, losing in mindshare rapidly
+
+- React.js: basically provides fast view rendering, not the other parts.
+  If some view/directive is too slow with angular (e.g. huge dom), it
+  can be optimized by integrating React in some parts of the Angular
+  app (see e.g. ngReact).
 
 
 SASS
